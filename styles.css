@@ -24,7 +24,7 @@ body {
     background-color: #003049;
 }
 
-.home-buttons {
+.homepage-recipe-buttons {
     text-align: center;
 }
 
@@ -59,4 +59,27 @@ body {
     font-family: monospace;
     color: #093e5a;
     margin: 15px 100px;
+}
+
+.home-button {
+    display: inline-block;
+    font-family: monospace;
+    background-color: #00304980;
+    padding: 12px;
+    margin: 15px 15px 0px 15px;
+    border-radius: 10px;
+    border: 10px;
+    color: #eae2b7;
+}
+
+.home-button:hover {
+    background-color: #003049;
+}
+
+.main-header {
+    font-family: monospace;
+    text-align: center;
+    color: #003049;
+    font-size: 40px;
+    margin-top: 0px; 
 }
